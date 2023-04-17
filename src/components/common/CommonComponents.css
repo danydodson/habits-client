@@ -1,0 +1,29 @@
+.curved-container-left {
+    position: relative;
+    background-color: white;
+    min-height: 30vh;
+     
+}
+
+.curved-container-right {
+    position: relative;
+    background-color: #f8f3f3;
+    min-height: 30vh;
+    border-top-left-radius: 70px 60px;
+    border-bottom-left-radius: 70px 60px;
+}
+
+
+#plain-header {
+    background-color: #C07D4E;
+    position: fixed;
+    width:100%;
+    border-bottom-left-radius: 70px 60px;
+    z-index: 5;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

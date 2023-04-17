@@ -1,0 +1,154 @@
+#profile-header{
+    position: relative;
+    background-color: #C07D4E;
+    height: 120px;
+    display: flex; 
+    align-items: flex-end;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    border-bottom-left-radius: 70px 60px;
+}
+
+#edit-profile-header {
+    position: relative;
+    background-color: #C07D4E;
+    height: 120px;
+    display: flex; 
+    align-items: flex-end;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    border-bottom-left-radius: 70px 60px;
+}
+
+.flex-header {
+    display: flex; 
+    gap: 15px; 
+    align-items: flex-end;
+}
+
+.profile-img-container-lg{
+    width: 70px;
+    height: 70px;
+    border: solid 5px white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.profile-img-lg {
+    min-height:100%; 
+    min-width: 100%; 
+    object-fit: cover;
+}
+
+.profile-headline {
+    font-size: 24px;
+    margin: 0;
+    padding-bottom: 8px;
+}
+
+.profile-subheadline {
+    all: unset;
+    margin: 0;
+}
+
+.textinput-container {
+    width: 80%;
+}
+
+.form-row > textarea {
+    all: unset;
+    border: solid 1px #a9a9a9;
+    border-radius: 10px;
+    min-height: 70px;
+    background-color: #F6F6F6;
+    padding: 10px 20px;
+}
+
+.category-checkbox-container {
+    padding: 5px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.category-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-bottom: 30px;
+}
+
+.category-checkbox{
+    background-color: #DAAB8A;
+    border-radius: 4px;
+    overflow: hidden;
+}
+  
+.category-checkbox {
+    width: 150px;
+    height: 50px;
+}
+  
+.category-checkbox label span {
+    text-align: center;
+    padding: 15px 0;
+    display: block;
+}
+  
+.category-checkbox label input {
+    all: unset;
+    position: absolute;
+    display: none;
+}
+.category-checkbox label input + span{
+    color: #fff;
+}
+  
+.category-checkbox input:checked + span {
+    color: #ffffff;
+    border: solid 2px #48535a;
+    background-color: #C07D4E;
+}
+
+.btn-follow {
+    background-color: white;
+    color: #48535a;
+    min-width: 80px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: none;
+    font-size: 10px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.btn-follow-op {
+    background-color: #48535a;
+    color: white;
+    min-width: 80px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: none;
+    font-size: 10px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.link-icon {
+    background-color: white;
+    color: #48535a;
+    font-size: 24px;
+    padding:2px;
+    border-radius: 50%;
+    margin-bottom: 6px;
+
+}

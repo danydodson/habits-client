@@ -1,0 +1,24 @@
+.homepage-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#img-women-gathering {
+    width: 100%;
+}
+
+.error-logo {
+    width: 150px;
+}
+
+.error-headline {
+    font-size: 28px;
+    margin-top: 30px;
+}
+
+#error-quote {
+    margin: 30px;
+    text-align: center;
+    font-size: 18px;
+}

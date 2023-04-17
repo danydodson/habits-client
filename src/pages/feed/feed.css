@@ -1,0 +1,53 @@
+#btn-create-post {
+    background-color: #0D4040;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    border: none;
+}
+
+#fix-container {
+    position: fixed;
+    bottom: 100px;
+    right: 25px;
+    z-index: 100;
+
+}
+
+.feed-container {
+    margin-top: 50px;
+}
+
+.post-icon-white {
+    font-size: 25px;
+    color: white;
+}
+
+.feeds-page {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 85px;
+}
+
+.feed-links {
+    background-color: white;
+    font-weight: 600;
+    color: #48535a;
+    min-width: 110px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.list-container {
+    position: fixed;
+    top: 18px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+}

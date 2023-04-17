@@ -1,0 +1,193 @@
+/* Generic CSS Classes: */
+html {
+    background-color: #F5ECE4;
+}
+
+.page-relative {
+    position: relative;
+    min-height: 100vh;
+}
+
+
+/* GENERIC added CURVE CSS Classes: */
+
+.curved {
+    width: 70px;
+    height: 60px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.curved:before {
+    content: "";
+    display: block;
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+/* added CURVE CSS Classes: */
+
+.corner-t-right,
+.corner-t-right:before {
+    bottom: -60px;
+    right: 0;
+}
+
+.corner-t-right:before {
+    box-shadow: 50px -50px 0 0;
+}
+
+
+.corner-b-left,
+.corner-b-left:before {
+    top: -60px;
+    left: 0;
+}
+
+.corner-b-left:before {
+    box-shadow: -50px 50px 0 0;
+}
+
+
+.corner-b-right,
+.corner-b-right:before {
+    top: -60px;
+    right: 0;
+}
+
+.corner-b-right:before {
+    box-shadow: 50px 50px 0 0;
+}
+
+
+/* CURVED COLOR CSS Classes: */
+
+.cc-navmenue:before {
+    color: #BF928C;
+}
+
+.cc-rose:before {
+    color: #f8f3f3;
+}
+
+.cc-navbar:before {
+    color: #C07D4E;
+    ;
+}
+
+.cc-grey:before {
+    color: #c4c4c4;
+}
+
+.cc-profile-header::before {
+    color: #C07D4E;
+}
+
+
+/* Buttons */
+
+.button-blue-lg {
+    all: unset;
+    background-color: #48535a;
+    color: white;
+    min-width: 170px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+.button-blue-xl {
+    all: unset;
+    margin-top: 20px;
+    background-color: #48535a;
+    color: white;
+    width: 280px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+.text-centered {
+    width: 100%;
+    text-align: center;
+}
+
+.link-blue {
+    color: #48535a
+}
+
+
+/* Links */
+
+.link-blue-lg {
+    background-color: #48535a;
+    color: white;
+    min-width: 170px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 25px;
+}
+
+.link-brown-lg {
+    background-color: #C07D4E;
+    color: white;
+    min-width: 170px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+
+/* Images */
+
+.img-logo {
+    width: 100%;
+}
+
+
+/* Radio Inputs */
+
+.radio-inputs {
+    cursor: pointer;
+    height: 18px;
+    width: 18px;
+    accent-color: #0D4040;
+}
+
+/* Active */
+
+a.active {
+    background-color: #48535a;
+    color: white;
+}
+
+a.menue-icon-container.active {
+    background-color: #48535a;
+}
+
+a:hover {
+    opacity: 0.6;
+}
+
+
+.profile-img-container-smw {
+    width: 50px;
+    height: 50px;
+    border: solid 5px white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}

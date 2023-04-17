@@ -1,0 +1,73 @@
+#signup {
+    width: 100%;
+}
+
+#login {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.form {
+    margin: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%
+}
+
+.form-row>label {
+    font-weight: 500;
+}
+
+.form-row>input {
+    all: unset;
+    border: solid 1px #a9a9a9;
+    border-radius: 10px;
+    min-height: 40px;
+    background-color: #F6F6F6;
+    padding: 0 20px;
+}
+
+.icon-footer-container {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 20px 0;
+    gap: 16px;
+}
+
+.icon-footer-container>li {
+    background-color: #d9d9d9;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icon {
+    color: white;
+    font-size: 24px;
+}
+
+.homepage-section p {
+    font-size: 20px;
+    width: 85%;
+    text-align: center;
+}
+
+#img-onboarding {
+    width: 155vw;
+}

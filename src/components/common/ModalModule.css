@@ -1,0 +1,86 @@
+.dark-background {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100vw;
+    height: 100vh;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+.modal {
+    width: 350px;
+    height: auto;
+    background: white;
+    color: white;
+    z-index: 50;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.04);
+}
+
+.modal-header {
+    height: 50px;
+    background: white;
+    overflow: hidden;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.heading {
+    margin: 0;
+    padding: 10px;
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+
+.modal-content {
+    padding: 10px;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+}
+
+.modal-actions {
+    position: absolute;
+    bottom: 2px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.actions-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn-close {
+    cursor: pointer;
+    font-weight: 500;
+    padding: 4px 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    color: black;
+    background: white;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.06);
+    position: absolute;
+    right: 0;
+    top: 0;
+    align-self: flex-end;
+}
+
+#h3-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0D4040;
+}

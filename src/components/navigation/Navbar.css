@@ -1,0 +1,20 @@
+#navbar {
+    background-color: #C07D4E;
+    position: relative;
+    width:100%;
+    border-bottom-left-radius: 70px 60px;
+    z-index: 2;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-icon {
+    color: #48535a;
+    background-color: white;
+    padding: 10px; 
+    border-radius: 50%;
+}
+
+ 
